@@ -1,0 +1,70 @@
+ Ques:- Explain  the role of followinh key properties in the Flexbox layout model
+ 1. justify-content
+ 2. align-items
+ 3. gap
+ 4. flex- direction
+ 5. flex-wrap
+
+ ANS:-
+
+1. justify-content:
+
+   - The justify-content property determines how flex items are aligned along the main axis of the flex container.
+
+   - It controls the distribution of space between and around the flex items.
+
+   - Possible values include:
+
+     - flex-start: Items are packed toward the start of the main axis.
+
+     - flex-end: Items are packed toward the end of the main axis.
+
+     - center: Items are centered along the main axis and etc.
+
+
+2. align-items:
+
+   - The align-items property determines how flex items are aligned along the cross axis of the flex container.
+
+   - It controls the alignment of items in a single line (when flex-direction is row) or in a column (when flex-direction is column).
+
+   - Possible values include:
+
+     - flex-start: Items are aligned to the start of the cross axis.
+
+     - flex-end: Items are aligned to the end of the cross axis.
+
+     - center: Items are centered along the cross axis and etc.
+  
+
+3. gap:
+
+   - The gap property sets the space between flex items in a flex container.
+
+   - It defines the gap both horizontally (row-gap) and vertically (column-gap) in a grid-like manner.
+
+   - It is useful for controlling the spacing between items without needing to add margins or padding to individual items.
+
+4. flex-direction:
+
+   - The flex-direction property defines the direction of the main axis of the flex container, which determines the layout direction of flex items.
+
+   - Possible values include:
+
+     - row (default): Items are laid out in a row, from left to right.
+
+     - row-reverse: Items are laid out in a row, from right to left.
+
+     - column: Items are laid out in a column, from top to bottom and etc.
+    
+5. flex-wrap:
+   - The flex-wrap property controls whether flex items are allowed to wrap onto multiple lines when there's not enough space along the main axis.
+
+   - Possible values include:
+
+     - nowrap (default): Items remain on a single line, and may overflow the container.
+
+     - wrap: Items can wrap onto multiple lines when there's insufficient space.
+     
+     - wrap-reverse: Items wrap onto multiple lines in reverse order.
+

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Question4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Poppins&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            font-family: Nunito;
+        }
+        body{
+            width: 100%;
+            height: auto;
+            background-color: #F4F2FD;
+        }
+        .pricing-section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100vh;
+        }
+        .card-wapper{
+            width: 262px;
+            height: 363px;
+            border-radius:8px;
+            Padding:32px;
+            margin: 21px;
+            Gap:32px;
+            background-color: #FFFFFF;
+            color: #202842;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        .card-wapper1{
+            width: 262px;
+            height: 363px;
+            border-radius:8px;
+            Padding:32px;
+            margin: 21px;
+            Gap:32px;
+            background-color: #202842;
+            color: #fff;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+           
+        }
+        .card-wapper1:hover{
+            transform: scale(1.1);
+        }
+        
+        .card-wapper:hover{
+            transform: scale(1.1);
+        }
+        .card-header{
+            width: 203px;
+            height: 108px;
+            gap: 16px;
+
+        }
+        .price{
+            width:78px;
+            height:36px;
+            padding: 0px, 8px, 0px, 8px;
+            gap: 10px;
+
+        }
+        
+        
+        .card-header{
+            font-family: Nunito;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        .card-header h6{
+            font-family: Nunito;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .price h2{
+            font-family: "Poppins", Sans-Serif  ;
+            font-size: 36px;
+            font-weight: 300;
+            line-height: 60px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding:5px;
+            position: relative;
+        }
+    
+        .plan-details  {
+            padding:8px;
+            width: 207px;
+            min-width: none;
+            height: auto;
+            font-size: 16px;  
+            
+            
+        }
+         .group li{
+            list-style-type: none;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            align-items: flex-start;   
+            display: flex;
+        }
+         
+        .tic{
+            margin: 0px 4px 5px 0px ;
+            padding: 2px 6px;
+            background-color: #202842;
+            color: #fff;
+            border-radius: 50%;
+        }
+        .tic1{
+            margin: 0px 4px 5px 0px ;
+            padding: 2px 6px;
+            background-color: #fff;
+            color: #202842;
+            border-radius: 50%;  
+        }
+
+        button{
+            display: flex;
+            margin: 0 auto;
+            width: 156px;
+            height: 38px; 
+            border-radius: 50px;
+            background-color: #202842;
+            color: #fff;
+            padding: 8px 0px 0px 30px;
+            cursor: pointer;
+        }
+        .button{
+            margin: 28px 0px 0px 0px;
+        }
+        .button1{
+            background-color: #fff;
+            color: #202842;
+        }
+
+    </style>
+
+    
+</head>
+<body>
+    <section class="pricing-section">
+        <div class="card-wapper">
+            <div class="card-header">
+                <h2> Free Plan</h2>
+                <h6>For personal</h6>
+            
+            <div class="price">
+                <h2>$0</h2>
+            </div>
+        </div>
+            <div class="plan-details">
+                <div class="group group1">
+                    <div>
+                    <li><p class="tic">✔</p>1 users</li>
+                    </div>
+                    <li><p class="tic">✔</p>4 Web mails</li></i>
+                
+                    <li><p class="tic">✔</p>Responsive Website</li></i>
+               
+                    <li><p class="tic">✔</p>Free SSL</li></i>
+                </div>
+                
+            </div>
+
+            <div class="button"><button>Subscribe now</button></div>
+        </div>
+
+        <div class="card-wapper1 card-wapper1">
+            <div class="card-header">
+                <h2> Basic Plan </h2>
+                <h6>For small business</h6>
+            
+            <div class="price">
+                <h2>$29</h2>
+            </div>
+        </div>
+            <div class="plan-details blue">
+                <div class="group group1">
+                    <li><p class="tic1">✔</p>4 users</li></i>
+                </div>
+                <div class="group group2">
+                    <li><p class="tic1">✔</p>10 Web mails</li></i>
+                </div>
+                <div class="group group3">
+                    <li><p class="tic1">✔</p>Responsive Website</li></i>
+                </div>
+                <div class="group group4">
+                    <li><p class="tic1">✔</p>Free SSL</li></i>
+                </div>
+                <div><button class="button button1">Subscribe now</button></div>
+            </div>
+        </div>
+
+        <div class="card-wapper">
+            <div class="card-header">
+                <h2> Pro Plan </h2>
+                <h6>For enterprise</h6>
+            
+            <div class="price">
+                <h2>$49</h2>
+            </div>
+        </div>
+            <div class="plan-details">
+                <div class="group group1">
+                    <li><p class="tic">✔</p>Unlimited users</li></i>
+                </div>
+                <div class="group group2">
+                    <li><p class="tic">✔</p>Unlimited Web mails</li></i>
+                </div>
+                <div class="group group3">
+                    <li><p class="tic">✔</p>Responsive Website</li></i>
+                </div>
+                <div class="group group4">
+                    <li><p class="tic">✔</p>Free SSL + SEO</li></i>
+                </div>
+                <div><button class="button">Subscribe now</button></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
